@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "0.0.1",
+  "description": "a cool weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@lightningrock",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "react",
+    "react-app",
+    "weather"
+  ],
+  "homepage": "https://github.com/sean-7777/weather-app#readme",
+  "bugs": "https://github.com/sean-7777/weather-app/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sean-7777/weather-app.git"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
