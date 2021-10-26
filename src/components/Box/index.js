@@ -1,7 +1,8 @@
 import React from "react";
 import "./styles.less";
+import BoxContainer from "./BoxContainer";
 
-export default function ({ children, title }) {
+function Box({ children, title }) {
   return (
     <div className="box">
       <header className="box__title">{title}</header>
@@ -9,3 +10,6 @@ export default function ({ children, title }) {
     </div>
   );
 }
+
+Box.Container = BoxContainer;
+export default Box;

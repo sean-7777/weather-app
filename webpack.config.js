@@ -28,5 +28,6 @@ module.exports = {
     },
   },
   mode: "development",
+  devtool: "eval-source-map",
   context: __dirname,
 };
